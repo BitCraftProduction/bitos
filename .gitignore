@@ -1,0 +1,23 @@
+# === Rust build cache ===
+**/target/
+
+# === Rust-specific files ===
+
+
+# === Backup / temporary files ===
+**/*.rs.bk
+*.log
+*.out
+*.exe
+*.tmp
+*.swp
+
+# === IDE/editor configs ===
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# === OS / system files ===
+.DS_Store
+Thumbs.db
