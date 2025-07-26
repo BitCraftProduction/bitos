@@ -1,7 +1,7 @@
 
-# BitOS – A New Era of Operating Systems
+# VedOS – A New Era of Operating Systems
 
-**BitOS** is a next-gen experimental operating system built in **Rust**, focused on security, simplicity, and exploration. This is not just an OS; it's an idea — to build a new digital world rooted in freedom, speed, and innovation.
+**VedOS** is a next-gen experimental operating system built in **Rust**, focused on security, simplicity, and exploration. This is not just an OS; it's an idea — to build a new digital world rooted in freedom, speed, and innovation.
 
 > Current Level: 0  
 > Status: Learning, prototyping, and simulating kernel logic
@@ -9,7 +9,7 @@
 
 ## Vision
 
-BitOS is not a Linux clone. It's a fresh take on what a personal OS can be — secure, technical, and deeply personal. Built with:
+VedOS is not a Linux clone. It's a fresh take on what a personal OS can be — secure, technical, and deeply personal. Built with:
 - **Rust** for memory-safety and performance
 - Custom kernel architecture (no `std`)
 - Focus on AI integration, custom UI, and minimalist design
@@ -28,13 +28,13 @@ BitOS is not a Linux clone. It's a fresh take on what a personal OS can be — s
 ### Current
 
 ```
-bitos/
+VedOS/
 ├── bootloader/                         # Minimal Rust crate that boots and loads the kernel binary
 │   ├── Cargo.toml                      # Bootloader crate configuration and dependencies
 │   └── src/
 │       └── main.rs                     # Entry point for bootloader logic (mostly handled by `bootloader` crate)
 │
-├── kernel/                             # Core kernel logic and modules for BitOS
+├── kernel/                             # Core kernel logic and modules for VedOS
 │   ├── Cargo.toml                      # Kernel crate configuration and dependencies
 │   ├── src/
 │   │   ├── main.rs                     # Kernel's main entry point (e.g. init, test setup)
@@ -55,7 +55,7 @@ bitos/
 ### Complete OS
 
 ```
-bitos/
+VedOS/
 ├── bootloader/
 ├── kernel/
 │   ├── arch/          # Architecture-specific code (x86_64, etc.)

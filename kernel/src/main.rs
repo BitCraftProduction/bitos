@@ -1,4 +1,4 @@
-// BitOS is initialized
+// VedOS is initialized
 //Current level: 0
 
 #[derive(Debug)]
