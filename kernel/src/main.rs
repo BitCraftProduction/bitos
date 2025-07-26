@@ -5,6 +5,7 @@
 enum Command{
     Shutdown,
     Reboot,
+    Initializing,
     Print(&'static str)
 }
 
@@ -12,6 +13,7 @@ fn handle_command(cmd:Command){
     match  cmd {
         Command::Shutdown => println!("System is shutting down..."),
         Command::Reboot => println!("System is rebooting..."),
+        Command::Initializing => println!("Initializing..."),
         Command::Print(msg)=>println!("Message: {msg}")
     }
 }
