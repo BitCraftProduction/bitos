@@ -9,7 +9,7 @@
 
 ## Vision
 
-BitOS is not a Linux clone. It's a fresh take on what a personal OS can be — spiritual, technical, and deeply personal. Built with:
+BitOS is not a Linux clone. It's a fresh take on what a personal OS can be — secure, technical, and deeply personal. Built with:
 - **Rust** for memory-safety and performance
 - Custom kernel architecture (no `std`)
 - Focus on AI integration, custom UI, and minimalist design
@@ -77,7 +77,7 @@ bitos/
 
 ## Author
 
-Made with love by Ganesh Kumar at [BitCraft Production](https://www.bitcraftproduction.com)
+Made with love by Ganesh Kumar & Ghost at [BitCraft Production](https://www.bitcraftproduction.com)
 
 
 ## License
